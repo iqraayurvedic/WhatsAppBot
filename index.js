@@ -13,7 +13,7 @@ client.on("ready", () => {
 });
 
 client.on("message", async (message) => {
-    if (message.body === "hello") {
+    if (message.body === "hi") {
         message.reply("Hello! मैं तुम्हारा WhatsApp बॉट हूँ!");
     }
 });
